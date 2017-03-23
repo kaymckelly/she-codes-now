@@ -7,8 +7,8 @@
   // configure the module
   myAppModule.filter('greet', function() {
     return function(name) {
-      return 'Hello, ' + name + '!';
+      return 'Hello ' + name + '!';
     };
   });
-  
+
 })(window.angular);
