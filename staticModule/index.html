@@ -4,13 +4,17 @@
   <head>
     <meta charset="utf-8">
     <title>Basic Module</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <link rel="stylesheet" href="main.css">
   </head>
   <body>
-    <div ng-app="myApp">
-      <div>
-        {{ 'World' | greet }}
+    <div ng-app="myApp" id="main">
+      <div id="text">
+        <p>
+          {{ 'World' | greet }}
+        </p>
       </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
